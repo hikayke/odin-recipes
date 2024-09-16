@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: rgb(237, 234, 221);
+}
+
+h1,
+h2 {
+    font-family: Garamond, 'Times New Roman', Georgia;
+}
+
+p {
+    background-color: rgba(189, 187, 175, 0.72);
+}
+
+ul.dotless-list {
+    list-style-type: none;
+    margin-right: 45px;
+}
+
+#mainpagetitle,
+#mainpagelist {
+    text-align: center;
+}
+
+div#mainpagelist {
+    background-color: rgba(189, 187, 175, 0.72);
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#mainpagetitle {
+    font-size: 42px;
+}
+
+.para.description {
+    text-align: center;
+}
+
+img.recipeimage {
+    width: 400px;
+    height: 300px;
+    display: block;
+    margin: auto;
+}
+
+#mainpagedescription {
+    margin-top: -20px;
+    font-weight: 700;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+ul,
+ol,
+li {
+    text-align: left;
+}
+
+.goback {
+    color: rgb(70, 49, 49);
+}
