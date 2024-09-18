@@ -9,15 +9,6 @@ h2 {
     font-family: Garamond, 'Times New Roman', Georgia;
 }
 
-p {
-    background-color: rgba(189, 187, 175, 0.72);
-}
-
-ul.dotless-list {
-    list-style-type: none;
-    margin-right: 45px;
-}
-
 #mainpagetitle,
 #mainpagelist {
     text-align: center;
@@ -25,8 +16,26 @@ ul.dotless-list {
 
 div#mainpagelist {
     background-color: rgba(189, 187, 175, 0.72);
-    margin-left: 25%;
-    margin-right: 25%;
+    width: 25%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 8px 12px;
+
+}
+
+div#mainpagelist,
+.stepslist,
+.ingredientslist {
+    background-color: rgba(189, 187, 175, 0.72);
+    border: solid 0px;
+    border-radius: 16px;
+}
+
+.stepslist,
+.ingredientslist {
+    width: 50%;
+    margin: 12px auto;
+    padding: 4px 12px 12px 8px;
 }
 
 #mainpagetitle {
@@ -35,6 +44,8 @@ div#mainpagelist {
 
 .para.description {
     text-align: center;
+    width: 75%;
+    margin: 12px auto;
 }
 
 img.recipeimage {
@@ -56,6 +67,18 @@ li {
     text-align: left;
 }
 
+a {
+    color: rgb(70, 49, 49);
+}
+
 .goback {
     color: rgb(70, 49, 49);
+    background-color: hsl(33, 48%, 69%);
+    padding: 6px 12px;
+    border: solid 1px;
+    border-radius: 16px;
+    border-color: hsla(0, 0%, 0%, 0.25);
+    margin: 12px auto;
+    width: 64px;
+    display: block
 }
